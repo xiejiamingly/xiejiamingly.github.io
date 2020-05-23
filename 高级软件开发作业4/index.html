@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>高级软件开发作业4 - Xie Jiaming的个人博客</title><meta name="Description" content="研二上学期课程作业，论述高级软件开发技术相关知识。"><meta property="og:title" content="高级软件开发作业4" />
+<meta property="og:description" content="研二上学期课程作业，论述高级软件开发技术相关知识。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" />
+<meta property="og:image" content="https://xiejiamingly.github.io/logo.png"/>
+<meta property="article:published_time" content="2020-05-23T13:56:14+08:00" />
+<meta property="article:modified_time" content="2020-05-23T13:56:14+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://xiejiamingly.github.io/logo.png"/>
+
+<meta name="twitter:title" content="高级软件开发作业4"/>
+<meta name="twitter:description" content="研二上学期课程作业，论述高级软件开发技术相关知识。"/>
+<meta name="application-name" content="查可猜">
+<meta name="apple-mobile-web-app-title" content="查可猜"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "高级软件开发作业4",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/xiejiamingly.github.io\/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/xiejiamingly.github.io\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "软件开发, 作业","wordcount":  5452 ,
+        "url": "https:\/\/xiejiamingly.github.io\/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4\/","datePublished": "2020-05-23T13:56:14+08:00","dateModified": "2020-05-23T13:56:14+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "Xie Jiaming",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/xiejiamingly.github.io\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Xie Jiaming"
+            },"description": "研二上学期课程作业，论述高级软件开发技术相关知识。"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Xie Jiaming的个人博客"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Xie Jiaming</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/xiejiamingly" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/en/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/">English</option><option value="/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" selected>简体中文</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Xie Jiaming的个人博客"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Xie Jiaming</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/xiejiamingly" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/en/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/">English</option><option value="/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">高级软件开发作业4</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Xie Jiaming</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/"><i class="far fa-folder fa-fw"></i>研究生课程</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-23">2020-05-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 5452 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 11 分钟&nbsp;
+                <i class="far fa-eye fa-fw"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;次阅读&nbsp;
+                    
+                    
+                    
+                
+            </div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#高级软件开发技术">高级软件开发技术</a>
+      <ul>
+        <li><a href="#1瀑布式开发">1、瀑布式开发</a>
+          <ul>
+            <li><a href="#11-目标设计">1.1 目标设计</a></li>
+            <li><a href="#12-与敏捷式对比">1.2 与敏捷式对比</a></li>
+          </ul>
+        </li>
+        <li><a href="#2迭代式开发">2、迭代式开发</a>
+          <ul>
+            <li><a href="#21-原理">2.1 原理</a></li>
+            <li><a href="#22-优点">2.2 优点</a></li>
+            <li><a href="#23-开发特征">2.3 开发特征</a></li>
+          </ul>
+        </li>
+        <li><a href="#3快速原型">3、快速原型</a>
+          <ul>
+            <li><a href="#31-基本原理">3.1 基本原理</a></li>
+            <li><a href="#32-运作方式">3.2 运作方式</a></li>
+          </ul>
+        </li>
+        <li><a href="#4敏捷式开发">4、敏捷式开发</a>
+          <ul>
+            <li><a href="#41-原则">4.1 原则</a>
+              <ul>
+                <li><a href="#411-主张简单">4.1.1 主张简单</a></li>
+                <li><a href="#421-拥抱变化">4.2.1 拥抱变化</a></li>
+                <li><a href="#423-可持续性">4.2.3 可持续性</a></li>
+                <li><a href="#424-递增的变化">4.2.4 递增的变化</a></li>
+                <li><a href="#425-投资最大化">4.2.5 投资最大化</a></li>
+                <li><a href="#42-6-有目的的建模">4.2 6 有目的的建模</a></li>
+                <li><a href="#427-多种模型">4.2.7 多种模型</a></li>
+                <li><a href="#428-高质量的工作">4.2.8 高质量的工作</a></li>
+                <li><a href="#429-快速反馈">4.2.9 快速反馈</a></li>
+                <li><a href="#4210-轻装前进">4.2.10 轻装前进</a></li>
+              </ul>
+            </li>
+            <li><a href="#42-敏捷开发团队原则">4.2 敏捷开发团队原则</a>
+              <ul>
+                <li><a href="#421-最大分歧">4.2.1 最大分歧</a></li>
+                <li><a href="#422-发现中立点">4.2.2 发现中立点</a></li>
+              </ul>
+            </li>
+            <li><a href="#43-分布式敏捷开发">4.3 分布式敏捷开发</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="高级软件开发技术">高级软件开发技术</h2>
+<h3 id="1瀑布式开发">1、瀑布式开发</h3>
+<p>在最开始的软件行业普遍采用这种方法，但是这种方法套用自传统工业生产，不适应计算机软件开发的具体情况。瀑布模型是最典型的预见性的方法，严格遵循预先计划的需求、分析、设计、编码、测试的步骤顺序进行。步骤成果作为衡量进度的方法，例如需求规格，设计文档，测试设计和码审阅等等。
+瀑布式的主要的问题是它的严格分级导致的自由度降低，项目早期即作出承诺导致对后期需求的变化难以调整，代价高昂。瀑布式方法在需求不明并且在项目进行过程中可能变化的情况下基本是不可行的。大体分为这几个阶段：需求分析、设计、编码、测试、维护。</p>
+<h4 id="11-目标设计">1.1 目标设计</h4>
+<p>需求阶段通常定义系统的需求，明白系统的目标。<br>
+设计阶段通常确定系统使用什么数据库，系统模块的划分，各个模块的功能。<br>
+编码阶段用编程语言对设计阶段的实现。<br>
+测试阶段分黑盒测试，白盒测试。测试系统的功能是否实现，是否准确。<br>
+维护阶段是根据用户新的需要重新修改系统，使系统更加稳定，更符合用户的要求。<br>
+需求阶段的工作是否到位是整个系统开发的关键，在需求阶段有很多方式可以帮助自己完成工作，例如与客户畅所欲言，跟随客户参与业务过程等等。不管任何一种方法，任何一种方式，在需求阶段首先确定系统边界，确定组织边界，然后摸清企业为消费者创造的价值，看清企业的价值链，摸清价值链上的实体。最后要平衡价值链上各个实体之间的利益，争取系统做到大家都满意这个理想的状态。</p>
+<h4 id="12-与敏捷式对比">1.2 与敏捷式对比</h4>
+<p>团队和利益相关者之间需要经常并且细致的交互。建立互信，人们之间维持开放并且忠诚的关系非常重要。这样的氛围使得沟通更为有效，帮助大家构建对于正确需求的一致理解。</p>
+<p>对于我来说，价值比费用更重要。如果你知道哪一个需求最为重要，那么开发它所需的成本反而不那么要紧。对价值的理解也会激励大家，帮助大家关注于持续选择并开发正确的需求。</p>
+<p>使用敏捷项目框架，比如scrum、XP、SAFe或者LeSS并不会自动保证项目的成功。需要以适合项目需求的方式使用这些框架。选择合适的方式，在工作方法上达成一致。不用太担心项目一开始时达不到完美，反思之类的活动会帮助大家持续学习并在过程中不断改进。</p>
+<h3 id="2迭代式开发">2、迭代式开发</h3>
+<p>学习一个简单的例子，考虑一个阶乘的计算。阶乘的因子是从1到该数的整数。迭代定义为：如果算法的定义没有包含算法本身，则叫做迭代法。</p>
+<p>迭代式开发也被称作迭代增量式开发或迭代进化式开发，是一种与传统的瀑布式开发相反的软件开发过程，它弥补了传统开发方式中的一些弱点，具有更高的成功率和生产率。</p>
+<p>教学中，对迭代和版本的区别，可理解如下：迭代一般指某版本的生产过程，包括从需求分析到测试完成；版本一般指某阶段软件开发的结果，一个可交付使用的产品。</p>
+<h4 id="21-原理">2.1 原理</h4>
+<p>在迭代式开发方法中，整个开发工作被组织为一系列的短小的、固定长度（如3周）的小项目，被称为一系列的迭代。每一次迭代都包括了定义、需求分析、设计、实现与测试。采用这种方法，开发工作可以在需求被完整地确定之前启动，并在一次迭代中完成系统的一部分功能或业务逻辑的开发工作。再通过客户的反馈来细化需求，并开始新一轮的迭代。</p>
+<h4 id="22-优点">2.2 优点</h4>
+<ul>
+<li>降低风险</li>
+<li>得到早期用户反馈</li>
+<li>持续的测试和集成</li>
+<li>使用变更</li>
+<li>提高复用性</li>
+</ul>
+<h4 id="23-开发特征">2.3 开发特征</h4>
+<p>1.在进行大规模的投资之前就解决了关键的风险分析。<br>
+2.使得早期的用户反馈在初始迭代中就能出现。 <br>
+3.对各个目标里程碑提供了短期的焦点（阶段性的中心）。<br>
+4.对过程的测量是通过对实现的评定（而不仅仅是文档）来进行的。 <br>
+5.可以对局部的实现进行部署。</p>
+<h3 id="3快速原型">3、快速原型</h3>
+<p>快速原型技术是一种涉及多学科的新型综合制造技术。80年代后，随着计算机辅助设计的应用，产品造型和设计能力得到极大提高，然而在产品设计完成后，批量生产前，必须制出样品以表达设计构想，快速获取产品设计的反馈信息，并对产品设计的可行性作出评估、论证。在市场竞争日趋激烈的今天，时间就是效益。为了提高产品市场竞争力，从产品开发到批量投产的整个过程都迫切要求降低成本和提高速度。快速原型技术的出现，为这一问题的解决提供了有效途径，倍受国内外重视。</p>
+<h4 id="31-基本原理">3.1 基本原理</h4>
+<p>快速原型技术是用离散分层的原理制作产品原型的总称，其原理为：产品三维CAD模型→分层离散→按离散后的平面几何信息逐层加工堆积原材料→生成实体模型。</p>
+<p>该技术集计算机技术、激光加工技术、新型材料技术于一体，依靠CAD软件，在计算机中建立三维实体模型，并将其切分成一系列平面几何信息，以此控制激光束的扫描方向和速度，采用粘结、熔结、聚合或化学反应等手段逐层有选择地加工原材料，从而快速堆积制作出产品实体模型。</p>
+<h4 id="32-运作方式">3.2 运作方式</h4>
+<p>由于运用原型的目的和方式不同，在使用原型时也采取不同的策略，有抛弃策略和附加策略。<br>
+1、抛弃策略是将原型用于开发过程的某个阶段，促使该阶段的开发结果更加完整、准确、一致、可靠，该阶段结束后，原型随之作废。探索型和实验型就是采用此策略的。<br>
+2、附加策略是将原型用于开发的全过程，原型由最基本的核心开始，逐步增加新的功能和新的需求，反复修改反复扩充，最后发展为用户满意的最终系统，演化型快速原型就是采用此策略。</p>
+<p>采用何种形式、何种策略运用快速原型主要取决于软件项目的特点、人员素质、可供支持的原型开发工具和技术等，这需要根据实际情况的特点来决定。</p>
+<h3 id="4敏捷式开发">4、敏捷式开发</h3>
+<p>敏捷开发以用户的需求进化为核心，采用迭代、循序渐进的方法进行软件开发。在敏捷开发中，软件项目在构建初期被切分成多个子项目，各个子项目的成果都经过测试，具备可视、可集成和可运行使用的特征。换言之，就是把一个大项目分为多个相互联系，但也可独立运行的小项目，并分别完成，在此过程中软件一直处于可使用状态。</p>
+<h4 id="41-原则">4.1 原则</h4>
+<h5 id="411-主张简单">4.1.1 主张简单</h5>
+<p>当从事开发工作时，你应当主张最简单的解决方案就是最好的解决方案。不要过分构建（overbuild）你的软件。用AM的说法就是，如果你现在并不需要这项额外功能，那就不要在模型中增加它。要有这样的勇气：你现在不必要对这个系统进行过分的建模（over-model），只要基于现有的需求进行建模，日后需求有变更时，再来重构这个系统。尽可能的保持模型的简单。</p>
+<h5 id="421-拥抱变化">4.2.1 拥抱变化</h5>
+<p>需求时刻在变，人们对于需求的理解也时刻在变。项目进行中，Project stakeholder可能变化，会有新人加入，也会有旧人离开。Project stakeholder的观点也可能变化，你努力的目标和成功标准也有可能发生变化。这就意味着随着项目的进行，项目环境也在不停的变化，因此你的开发方法必须要能够反映这种现实。</p>
+<h5 id="423-可持续性">4.2.3 可持续性</h5>
+<p>即便你的团队已经把一个能够运转的系统交付给用户，你的项目也还可能是失败的－－实现项目投资者的需求，其中就包括你的系统应该要有足够的鲁棒性（robust ），能够适应日后的扩展。就像Alistair Cockburn常说的，当你在进行软件开发的竞赛时，你的第二个目标就是准备下一场比赛。可持续性可能指的是系统的下一个主要发布版，或是你正在构建的系统的运转和支持。要做到这一点，你不仅仅要构建高质量的软件，还要创建足够的文档和支持材料，保证下一场比赛能有效的进行。你要考虑很多的因素，包括你现有的团队是不是还能够参加下一场的比赛，下一场比赛的环境，下一场比赛对你的组织的重要程度。简单的说，你在开发的时候，你要能想象到未来。</p>
+<h5 id="424-递增的变化">4.2.4 递增的变化</h5>
+<p>和建模相关的一个重要概念是你不用在一开始就准备好一切。实际上，你就算想这么做也不太可能。而且，你不用在模型中包容所有的细节，你只要足够的细节就够了。没有必要试图在一开始就建立一个囊括一切的模型，你只要开发一个小的模型，或是概要模型，打下一个基础，然后慢慢的改进模型，或是在不再需要的时候丢弃这个模型。这就是递增的思想。</p>
+<h5 id="425-投资最大化">4.2.5 投资最大化</h5>
+<p>你的项目投资者为了开发出满足自己需要的软件，需要投入时间、金钱、设备等各种资源。投资者应该可以选取最好的方式投资，也可以要求你的团队不浪费资源。并且，他们还有最后的发言权，决定要投入多少的资源。如果是这些资源是你自己的，你希望你的资源被误用吗。</p>
+<h5 id="42-6-有目的的建模">4.2 6 有目的的建模</h5>
+<p>对于自己的产出，例如模型、源代码、文档，很多开发人员不是担心它们是否够详细，就是担心它们是否太过详细，或担心它们是否足够正确。你不应该毫无意义的建模，应该先问问，为什么要建立这个产出，为谁建立它。和建模有关，也许你应该更多的了解软件的某个方面，也许为了保证项目的顺利进行，你需要和高级经理交流你的方法，也许你需要创建描述系统的文档，使其他人能够操作、维护、改进系统。如果你连为什么建模，为谁建模都不清楚，你又何必继续烦恼下去呢？首先，你要确定建模的目的以及模型的受众，在此基础上，再保证模型足够正确和足够详细。一旦一个模型实现了目标，你就可以结束工作，把精力转移到其它的工作上去，例如编写代码以检验模型的运作。该项原则也可适用于改变现有模型：如果你要做一些改变，也许是一个熟知的模式，你应该有做出变化的正确理由（可能是为了支持一项新的需求，或是为了重构以保证简洁）。关于该项原则的一个重要暗示是你应该要了解你的受众，即便受众是你自己也一样。例如，如果你是为维护人员建立模型，他们到底需要些什么？是厚达500页的详细文档才够呢，还是10页的工作总览就够了？你不清楚？去和他们谈谈，找出你想要的。</p>
+<h5 id="427-多种模型">4.2.7 多种模型</h5>
+<p>开发软件需要使用多种模型，因为每种模型只能描述软件的单个方面，“要开发现今的商业应用，我们该需要什么样的模型？”考虑到现今的软件的复杂性，你的建模工具箱应该要包容大量有用的技术（关于产出的清单，可以参阅AM的建模工件）。有一点很重要，你没有必要为一个系统开发所有的模型，而应该针对系统的具体情况，挑选一部分的模型。不同的系统使用不同部分的模型。比如，和家里的修理工作一样，每种工作不是要求你用遍工具箱里的每一个工具，而是一次使用某一件工具。又比如，你可能会比较喜欢某些工具，同样，你可会偏爱某一种模型。有多少的建模工件可供使用呢，如果你想要了解这方面的更多细节，我在Be Realistic About the UML中列出了UML的相关部分，如果你希望做进一步的了解，可以参阅白皮书The Object Primer &ndash; An Introduction to Techniques for Agile Modeling。</p>
+<h5 id="428-高质量的工作">4.2.8 高质量的工作</h5>
+<p>没有人喜欢烂糟糟的工作。做这项工作的人不喜欢，是因为没有成就感；日后负责重构这项工作（因为某些原因）的人不喜欢，是因为它难以理解，难以更新；最终用户不喜欢，是因为它太脆弱，容易出错，也不符合他们的期望。</p>
+<h5 id="429-快速反馈">4.2.9 快速反馈</h5>
+<p>从开始采取行动，到获得行动的反馈，二者之间的时间至关紧要。和其他人一共开发模型，你的想法可以立刻获得反馈，特别是你的工作采用了共享建模技术的时候，例如白板、CRC卡片或即时贴之类的基本建模材料。和你的客户紧密工作，去了解他们的的需求，去分析这些需求，或是去开发满足他们需求的用户界面，这样，你就提供了快速反馈的机会。</p>
+<h5 id="4210-轻装前进">4.2.10 轻装前进</h5>
+<p>你建立一个工件，然后决定要保留它，随着时间的流逝，这些工件都需要维护。如果你决定保留7个模型，不论何时，一旦有变化发生（新需求的提出，原需求的更新，团队接受了一种新方法，采纳了一项新技术&hellip;），你就需要考虑变化对这7个模型产生的影响并采取相应的措施。而如果你想要保留的仅是3个模型，很明显，你实现同样的改变要花费的功夫就少多了，你的灵活性就增强了，因为你是在轻装前进。类似的，你的模型越复杂，越详细，发生的改变极可能就越难实现（每个模型都更“沉重”了些，因此维护的负担也就大了）。每次你要决定保留一个模型时，你就要权衡模型载有的信息对团队有多大的好处（所以才需要加强团队之间，团队和项目投资者之间的沟通）。千万不要小看权衡的严重性。一个人要想过沙漠，他一定会携带地图，帽子，质地优良的鞋子，水壶。如果他带了几百加仑的水，能够想象的到的所有求生工具，一大堆有关沙漠的书籍，他还能过得去沙漠吗？同样的道理，一个开发团队决定要开发并维护一份详细的需求文档，一组详细的分析模型，再加上一组详细的架构模型，以及一组详细的设计模型，那他们很快就会发现，他们大部分的时间不是花在写源代码上，而是花在了更新文档上。</p>
+<h4 id="42-敏捷开发团队原则">4.2 敏捷开发团队原则</h4>
+<h5 id="421-最大分歧">4.2.1 最大分歧</h5>
+<p>最大的分歧在于开发人员和测试人员之间。作为敏捷团队的成员，测试人员被期望能编写一点代码，同时开发人员可以做一些测试。各自的强项还是很重要：新的角色要求每个成员成为大家所谓的“通才”。测试人员大多数时间作测试，开发人员大都编写代码，但所有人都分享他们的工作，而且有能力承担他们面前的任务。</p>
+<h5 id="422-发现中立点">4.2.2 发现中立点</h5>
+<p>团队决定作为一个团队需要做什么，如何最好地分配工作。第一步是让团队成员说说他们自己的技能集、优点和缺点。但却不希望他们根据以前角色（如，软件测试员或开发员）来定义自己。所以找到一个中立点，她列出了小型离线会议，和每周工作之外的小时集体活动所需的事项。这样，该团队去当地的农场采摘蓝莓。他们一起上瑜珈课。他们集体在厨房里烤燕麦棒，做果沙。</p>
+<h4 id="43-分布式敏捷开发">4.3 分布式敏捷开发</h4>
+<p>分布式敏捷开发团队并不是工作在所有组织中；拥有一个已经建立的分布式敏捷开发工作文化对分布式团队很重要。有些公司一直坚持“面对面”，这给分布式敏捷站立会议的开发增加的难度。</p>
+<p>但是如果文化一直就已经存在，那么开展敏捷站立会议和其它会议就会很容易。其中的一个选择就是使分散的团队成员按照同一计划表工作，即时区不一致。如果团队成员同意，且时差不超过几个小时的话，这才有效。</p>
+<h2 id="参考资料">参考资料</h2>
+<p>[1]瀑布式 vs 敏捷式：软件需求最佳方式<br>
+[2]计算机科学导论．刘艺 翟高锋：机械工业出版社，2010年9月<br>
+[3]三种敏捷开发方式指南</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020-05-23</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" data-title="高级软件开发作业4" data-hashtags="软件开发,作业"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" data-hashtag="软件开发"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" data-title="高级软件开发作业4" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" data-title="高级软件开发作业4"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 人人" data-sharer="renren" data-url="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/"><i class="fab fa-renren fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://xiejiamingly.github.io/%E9%AB%98%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%BD%9C%E4%B8%9A4/" data-title="高级软件开发作业4"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">软件开发</a>,&nbsp;<a href="/tags/%E4%BD%9C%E4%B8%9A/">作业</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.72.0-DEV">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.9"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Xie Jiaming</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"C5zALoc3be5jiSmFwI1b0hHk-MdYXbMMI","appKey":"Bdepc2XbQoRKpEK3wdgG62Fz","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":true,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"$$","right":"$$"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"},{"display":false,"left":"$","right":"$"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
