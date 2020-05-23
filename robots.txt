@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://xiejiaming.github.io/sitemap.xml
+Sitemap: https://xiejiamingly.github.io/sitemap.xml
